@@ -1,10 +1,10 @@
-# My-Scripts
+## My-Scripts
 
 Basic scripts which are useful to make our work simple and automate the work!!
 
 Thank You So much : https://devhints.io/bash
 
-#My variables X,y
+#My variables  x,y
 
 Basic Flags:
 
@@ -17,9 +17,9 @@ Basic Flags:
 rw- r-- r--
 O   G   A
 
-## O=admin; G=Group; A=All
+# O=admin; G=Group; A=All
 
-## r=read; w=write; x=execute
+# r=read; w=write; x=execute
 
 #r=4
 #w=2
