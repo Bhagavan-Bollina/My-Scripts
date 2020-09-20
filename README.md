@@ -14,8 +14,9 @@ Basic Flags:
 
 ## Permissions
 
-rw- r-- r--
-O   G   A
+rw-  O 
+r--  G 
+r--  A
 
 # O=admin; G=Group; A=All
 
