@@ -2,6 +2,6 @@
 
 mkdir files
 #n=20
-touch files/file{1..5}.txt
+touch files/file{1..20}.txt
 
 ls -ltr files/*
