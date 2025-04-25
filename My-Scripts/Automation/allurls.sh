@@ -15,6 +15,6 @@ mkdir -p $OUTPUT_DIR
 
 # Run waybackurls and gau, combine and dedupe
 echo "[*] Gathering URLs for $DOMAIN..."
-(waybackurls $DOMAIN; gau $DOMAIN) | sort -u > $OUTPUT_FILE
+(waybackurls $DOMAIN; gau --blacklist png,jpg,gif $DOMAIN) | sort -u > $OUTPUT_FILE
 
 echo "[+] URLs saved to $OUTPUT_FILE"
